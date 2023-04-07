@@ -29,7 +29,7 @@ const shoppingCart = {
   
   
   shoppingCart.addItem({name: 'Headphone', price: 100}); 
-  shoppingCart.addItem({name: 'Headphone2', price: 20}); // це новий товар
+  shoppingCart.addItem({name: 'Headphone2', price: 350}); // це новий товар
   shoppingCart.getTotalSum(); 
   shoppingCart.deleteItem({name: 'Headphone'}); 
   
