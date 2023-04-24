@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Інтернет-магазин</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="left-block">
+      <h2>Категорії</h2>
+      <ul>
+        <li class="category" data-category="electronics">Електроніка</li>
+        <li class="category" data-category="clothing">Одяг</li>
+        <li class="category" data-category="books">Книги</li>
+      </ul>
+    </div>
+    <div class="middle-block">
+      <h2>Товари</h2>
+      <div class="products"></div>
+    </div>
+    <div class="right-block">
+      <h2>Детальна інформація про товар</h2>
+      <div id="productDetails"></div>
+      <button id="buyButton" style="display: none;" onclick="buyProduct()">Купити</button>
+      <div id="purchaseMessage" style="display: none;">Товар куплений!</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
